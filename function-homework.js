@@ -6,7 +6,8 @@ function addition (x = 0, y = 0) {
     return
 }
 
-console.log ( addition (10, 90) )
+const solution = addition(10, 90)
+console.log (solution)
 
 
 // Function that squares a number
@@ -16,7 +17,8 @@ function square (x = 0) {
     return
 }
 
-console.log( square (57) )
+const answer = square(5)
+console.log(answer)
 
 // Object called student with 3 defined variables
 const student = {
