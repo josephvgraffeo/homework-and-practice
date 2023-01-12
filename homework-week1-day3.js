@@ -1,12 +1,15 @@
 // Loop that prints a pyramid of choice emoji
+// Need help with this one
+/*
 let pyramid = "";
-for (let i = 0; i <= 6; i++) {
-    for (k = 1; k < i; k++) {
+for (let i = 0; i <= 5; i++) {
+    for (k = 0; k < i; k++) {
         pyramid += "🌀"
     }
     pyramid += "\n";
 }
 console.log(pyramid)
+*/
 
 // Function that shifts first term in given array and pushes "kiwi"
 let favoriteFruits = ["mango", "lychee", "rambutan", "papya"]
