@@ -26,8 +26,12 @@ const combineTwoArrays = (array1, array2) => {
 console.log(combineTwoArrays([2,3,"cat"], [4,5]));
 
 // given a shopping list and cart arrays create a new array that removes cart items from shopping list
-// const shoppingList = [water, milk, cereal, plates, chips];
-// const shoppingCart = [milk, cereal];
+const shoppingList = ["milk", "cereal", "plates", "chips", "water"];
+const shoppingCart = ["milk", "cereal"];
 
-// const shoppingChecker = (shoppingList, shoppingCart) => {
-// }
+const shoppingChecker = (shoppingList) => {
+    let newShoppingList = shoppingList.splice(2,shoppingList.length);
+    return newShoppingList
+} 
+
+console.log(shoppingChecker(shoppingList))
