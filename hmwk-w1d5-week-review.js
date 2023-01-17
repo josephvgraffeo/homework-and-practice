@@ -23,7 +23,7 @@ const combineTwoArrays = (array1, array2) => {
     const newArray = [...array1, ...array2]
     return newArray
 };
-console.log(combineTwoArrays([2,3,"cat"], [4,5]));
+console.log(combineTwoArrays([2,3,"dog"], [4,5]));
 
 // given a shopping list and cart arrays create a new array that removes cart items from shopping list
 const shoppingList = ["milk", "cereal", "plates", "chips", "water"];
