@@ -1,6 +1,6 @@
 // // Write a function that prints from 1 to 100. But log “Fizz” instead of the number if it is divisible by 3, “Buzz” if the number is divisible by 5, and “FizzBuzz” if the number is divisible by both 3 and 5.
 
-function buzzFizzRite() {
+function buzzFizz() {
     for (i = 1; i < 101; i++) {
         switch (true) {
             case i % 3 === 0 && i % 5 === 0:
@@ -18,7 +18,7 @@ function buzzFizzRite() {
     }
 }
 
-buzzFizzRite(); 
+buzzFizz(); 
 
 
 // // Same function but using else if
