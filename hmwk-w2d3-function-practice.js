@@ -21,4 +21,4 @@ const sumOfEven = (array) => {
     console.log(`${sum} is the sum of all true values in the array!`);
 };
 
-sumOfEven([2,3,7,6,8,12,17,32,125,130,10]);
+sumOfEven([2,3,7,6,8,12,17,32,125,130,151]);
