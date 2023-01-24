@@ -9,14 +9,15 @@ const doubleEvenNums = numbers.forEach( (numbers) => {
     };
 });
 
+console.log(`-----------------------`)
 // remove first element of array, your dream car as new first element, remove last element, your first car as last element
 // let myDreamCars = ["Charger", "“Cayenne", "Cyber Truck", "G-Wagon", "Civic"];
-let myDreamCars = ["Charger", "“Cayenne", "Cyber Truck", "G-Wagon", "Civic"];
+let myDreamCars = ["Charger", "Cayenne", "Cyber Truck", "G-Wagon", "Civic"];
 
 const myDreamCarsCopy = [...myDreamCars]
 myDreamCarsCopy.shift();
 myDreamCarsCopy.pop();
-myDreamCarsCopy.push("Durango")
+myDreamCarsCopy.push("Durango Blacktop Ed.")
 myDreamCarsCopy.unshift("BMW i7")
 
 console.log(myDreamCarsCopy);
